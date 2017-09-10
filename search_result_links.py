@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+ #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 
@@ -12,14 +12,14 @@ from os import path
 
 
 keywords = [
-    '+385 textiles ltd email contact site:.hr'  #input your google search query here ' '
+    'Search query goes here'  #input your google search query here ' '
 ]
 
 # See in the config.cfg file for possible values
 config = {
     'use_own_ip': True,
     'keywords': keywords,
-    'search_engines': ['google'],
+    'search_engines': ['google'],   #add other search engines if you need
     'num_pages_for_keyword': 50,
     'scrape_method': 'selenium',
     'sel_browser': 'chrome',
